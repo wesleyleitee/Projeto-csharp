@@ -27,17 +27,17 @@ namespace OCP.Violation
 
         private void EnviarEmail(Usuario usuario)
         {
-            Console.WriteLine($"📧 Email enviado para {usuario.Email}");
+            Console.WriteLine($"Email enviado para {usuario.Email}");
         }
 
         private void EnviarSms(Usuario usuario)
         {
-            Console.WriteLine($"📱 SMS enviado para {usuario.Nome}");
+            Console.WriteLine($"SMS enviado para {usuario.Nome}");
         }
 
         private void EnviarWhatsapp(Usuario usuario)
         {
-            Console.WriteLine($"💬 WhatsApp enviado para {usuario.Nome}");
+            Console.WriteLine($"WhatsApp enviado para {usuario.Nome}");
         }
     }
 }
