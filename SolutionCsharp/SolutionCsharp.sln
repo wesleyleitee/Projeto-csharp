@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{33A7D55C-7BDE-4DD2-B395-A80FEA8203C8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "src\AsyncAwait\AsyncAwait.csproj", "{9EDEAEDE-967C-166E-C5DC-140E147C1C2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33A7D55C-7BDE-4DD2-B395-A80FEA8203C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33A7D55C-7BDE-4DD2-B395-A80FEA8203C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33A7D55C-7BDE-4DD2-B395-A80FEA8203C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33A7D55C-7BDE-4DD2-B395-A80FEA8203C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDEAEDE-967C-166E-C5DC-140E147C1C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDEAEDE-967C-166E-C5DC-140E147C1C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDEAEDE-967C-166E-C5DC-140E147C1C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDEAEDE-967C-166E-C5DC-140E147C1C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EDEAEDE-967C-166E-C5DC-140E147C1C2F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB7C72DF-611E-461F-B87C-69A1BE931EB0}
