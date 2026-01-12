@@ -9,6 +9,7 @@ namespace SRP.Solution.Tests.Services
         public void CriarUsuario_DadosValidos_DeveExecutarFluxoCompleto()
         {
             // Arrange
+            // Crie um objeto falso que finge ser um IUsuarioValidator
             var validatorMock = new Mock<IUsuarioValidator>();
             var repositoryMock = new Mock<IUsuarioRepository>();
             var emailServiceMock = new Mock<IEmailService>();
@@ -26,7 +27,9 @@ namespace SRP.Solution.Tests.Services
             service.CriarUsuario(nome, email);
 
             // Assert
+            // Verifique se esse método foi chamado
             validatorMock.Verify(
+                // O método deve ter sido chamado com um Usuario cujo nome e email sejam exatamente esses
                 v => v.Validar(It.Is<Usuario>(u =>
                     u.Nome == nome &&
                     u.Email == email
