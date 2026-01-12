@@ -1,6 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-
-namespace LSP.Violation
+﻿namespace LSP.Violation
 {
     internal class ContaSalario : ContaBancaria
     {
