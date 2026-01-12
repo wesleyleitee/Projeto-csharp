@@ -18,3 +18,5 @@
         }
     }
 }
+
+// Herança carrega promessas. Interfaces definem capacidades.
