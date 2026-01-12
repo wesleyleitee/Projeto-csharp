@@ -1,6 +1,6 @@
 ﻿namespace SRP.Solution
 {
-    internal class Usuario
+    public class Usuario
     {
         public string Nome { get; }
         public string Email { get; }

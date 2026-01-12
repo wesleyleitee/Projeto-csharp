@@ -1,6 +1,8 @@
-﻿namespace SRP.Solution
+﻿using SRP.Solution.Interfaces;
+
+namespace SRP.Solution
 {
-    internal class UsuarioRepository
+    internal class UsuarioRepository: IUsuarioRepository
     {
         public void Salvar(Usuario usuario)
         {

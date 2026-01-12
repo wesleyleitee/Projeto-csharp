@@ -1,6 +1,8 @@
-﻿namespace SRP.Solution
+﻿using SRP.Solution.Interfaces;
+
+namespace SRP.Solution
 {
-    internal class UsuarioValidator
+    public class UsuarioValidator: IUsuarioValidator
     {
         public void Validar(Usuario usuario)
         {

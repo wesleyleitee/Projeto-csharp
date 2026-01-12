@@ -1,8 +1,10 @@
-﻿namespace SRP.Solution
+﻿using SRP.Solution.Interfaces;
+
+namespace SRP.Solution
 {
-    internal class EmailService
+    internal class EmailService: IEmailService
     {
-        public void EnviarBoasVindas(string email)
+        public void Enviar(string email)
         {
             Console.WriteLine($"Enviando email de boas-vindas para {email}");
         }
