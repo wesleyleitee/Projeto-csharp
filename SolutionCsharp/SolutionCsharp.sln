@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP.Solution", "src\DIP.Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP.Violation", "src\DIP.Violation\DIP.Violation\DIP.Violation.csproj", "{E9009C15-1F7B-4E37-A562-CFAF4B55996F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP.Violation.Tests", "src\SRP.Violation.Tests\SRP.Violation.Tests\SRP.Violation.Tests.csproj", "{95C5595A-7469-432B-97C7-E294E56581D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{E9009C15-1F7B-4E37-A562-CFAF4B55996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9009C15-1F7B-4E37-A562-CFAF4B55996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9009C15-1F7B-4E37-A562-CFAF4B55996F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C5595A-7469-432B-97C7-E294E56581D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C5595A-7469-432B-97C7-E294E56581D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C5595A-7469-432B-97C7-E294E56581D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C5595A-7469-432B-97C7-E294E56581D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{A512E597-9774-4717-8E3E-242412D202A0} = {35F52335-F677-4D31-AB14-2132DFFCBED3}
 		{3914B0A1-DC92-46C6-9738-6D87188C786D} = {674590A8-49CB-4620-8E70-9E74A0090518}
 		{E9009C15-1F7B-4E37-A562-CFAF4B55996F} = {A83D2730-F74F-4E95-AE7B-7D90F2DCD517}
+		{95C5595A-7469-432B-97C7-E294E56581D3} = {8702B838-84E5-4256-B0FC-F20925DB6545}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB7C72DF-611E-461F-B87C-69A1BE931EB0}

@@ -1,6 +1,6 @@
 ﻿namespace SRP.Violation
 {
-    internal class UsuarioService
+    public class UsuarioService
     {
         public void CriarUsuario(string nome, string email)
         {
