@@ -50,5 +50,42 @@ namespace SRP.Solution.Tests.Services
                 Times.Once
             );
         }
+
+        [Fact]
+        public void CriarUsuario_DadosInvalidos_DeveLancarExcecaoENaoExecutarFluxo()
+        {
+            // Arrange
+            var validatorMock = new Mock<IUsuarioValidator>();
+            var repositoryMock = new Mock<IUsuarioRepository>();
+            var emailServiceMock = new Mock<IEmailService>();
+
+            // Força o validator a falhar
+            validatorMock
+                .Setup(v => v.Validar(It.IsAny<Usuario>()))
+                .Throws(new ArgumentException("Email inválido"));
+
+            var service = new UsuarioService(
+                validatorMock.Object,
+                repositoryMock.Object,
+                emailServiceMock.Object
+            );
+
+            // Act
+            var act = () => service.CriarUsuario("Wesley", "email-invalido");
+
+            // Assert
+            Assert.Throws<ArgumentException>(act);
+
+            repositoryMock.Verify(
+                r => r.Salvar(It.IsAny<Usuario>()),
+                Times.Never
+            );
+
+            emailServiceMock.Verify(
+                e => e.Enviar(It.IsAny<string>()),
+                Times.Never
+            );
+        }
+
     }
 }
