@@ -74,3 +74,8 @@ Console.ReadLine();
 */
 
 // Factory Pattern encapsula a criação de objetos, removendo o acoplamento entre quem usa e quem instancia.
+/*
+ “  Quando eu chamo GetRequiredService<GameRunner>(), o container tenta instanciar o GameRunner.
+    Ele analisa o construtor, vê que depende de IGameFactory e resolve essa dependência usando o registro existente no container.
+    Como existe apenas uma implementação registrada para IGameFactory, o container consegue resolver automaticamente.
+ */
