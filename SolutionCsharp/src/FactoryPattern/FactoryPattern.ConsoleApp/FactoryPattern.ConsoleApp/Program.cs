@@ -32,9 +32,10 @@ services.AddTransient<IGameFactory, GameFactory>();
 // Runner (importante!)
 services.AddTransient<GameRunner>();
 
+// BuildServiceProvider cria o container
 var provider = services.BuildServiceProvider();
 
-// EXECUÇÃO
+// EXECUÇÃO - GetRequiredService pede um objeto já montado
 var runner = provider.GetRequiredService<GameRunner>();
 runner.Run(gameType);
 
