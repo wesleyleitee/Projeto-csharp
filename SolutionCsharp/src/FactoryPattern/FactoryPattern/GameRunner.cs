@@ -55,3 +55,9 @@ namespace FactoryPattern
     }
 
 }
+
+/* 
+“Esse código usa Strategy?”
+“Sim. O Strategy está representado pela interface IGame e suas implementações. 
+O GameRunner atua como o contexto, delegando a execução do comportamento (Start) após obter a estratégia via Factory.”
+ */
