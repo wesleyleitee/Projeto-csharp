@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11925.98 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -76,6 +76,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern.ConsoleApp", "src\StrategyPattern\StrategyPattern.ConsoleApp\StrategyPattern.ConsoleApp.csproj", "{B637A87C-8A3F-4CD7-9BB5-2FE782175876}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "src\StrategyPattern\StrategyPattern\StrategyPattern.csproj", "{C8C9BD66-2F89-4893-8CE9-F95A358E9117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion.ConsoleApp", "src\Recursion\Recursion.ConsoleApp\Recursion.ConsoleApp.csproj", "{F6B195B3-AB63-417A-B379-076F83F838BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{B41A228D-D606-474B-8871-C082E6DFD549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +159,10 @@ Global
 		{C8C9BD66-2F89-4893-8CE9-F95A358E9117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C9BD66-2F89-4893-8CE9-F95A358E9117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C9BD66-2F89-4893-8CE9-F95A358E9117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B195B3-AB63-417A-B379-076F83F838BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B195B3-AB63-417A-B379-076F83F838BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B195B3-AB63-417A-B379-076F83F838BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B195B3-AB63-417A-B379-076F83F838BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +201,7 @@ Global
 		{882077A8-681E-42BE-A030-364B955D6868} = {B8C47713-9F8E-4B57-84B0-3F42FB49DF03}
 		{B637A87C-8A3F-4CD7-9BB5-2FE782175876} = {4F836244-5B10-4CB7-AD13-207ADE2304F3}
 		{C8C9BD66-2F89-4893-8CE9-F95A358E9117} = {4F836244-5B10-4CB7-AD13-207ADE2304F3}
+		{F6B195B3-AB63-417A-B379-076F83F838BD} = {B41A228D-D606-474B-8871-C082E6DFD549}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB7C72DF-611E-461F-B87C-69A1BE931EB0}
